@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="142dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="333dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Ringoz"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="333dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Available"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="333dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Price:Ksh10"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAddtocart"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Add to cart"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
