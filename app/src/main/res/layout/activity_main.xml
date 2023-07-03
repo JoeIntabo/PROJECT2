@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#27132B"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100sp"
         android:textAlignment="center"
+        android:textColor="#CF9595"
         android:textSize="30sp"
         android:text="LOGIN" />
 
@@ -29,7 +31,8 @@
         android:minHeight="50sp"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColorHint="@color/black"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:textAlignment="center"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="168dp"
@@ -43,7 +46,8 @@
         android:layout_marginTop="50sp"
         android:layout_marginRight="20sp"
         android:hint="Enter Password"
-        android:textColorHint="@color/black"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -57,7 +61,7 @@
         android:layout_margin="50sp"
         android:backgroundTint="#FF5722"
         android:text="LOGIN"
-        android:textColor="#000000"
+        android:textColor="#F3EBEB"
         android:textSize="20sp"
         android:textStyle="bold"  />
 
@@ -65,9 +69,10 @@
         android:id="@+id/TxtLogtoSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
         android:textSize="20sp"
         android:layout_margin="20sp"
         android:textAlignment="center"
+        android:textColor="#E40808"
+
         android:text="Dont't have an account!!Click here to create." />
 </LinearLayout>

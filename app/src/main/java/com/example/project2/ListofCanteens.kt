@@ -18,10 +18,20 @@ class ListofCanteens : AppCompatActivity() {
 
         imageid= arrayOf(
             //WEKA PICS HAPA KUTOKA DRAWABLE
-            R.drawable.drawable
+            R.drawable.drawable,
+            R.drawable.dekut,
+            R.drawable.emobilis,
+            R.drawable.jkuat,
+            R.drawable.uon,
+            R.drawable.usiu,
         )
         text= arrayOf(
-            "Murubano Canteen"
+            "Murubano Canteen",
+            "JKUAT Canteen",
+            "Emobilis Canteen",
+            "UON Canteen",
+            "USIU Canteen",
+            "DEKUT Canteen"
         )
         newRecyclerview=findViewById(R.id.recyclerview)
         newRecyclerview.layoutManager= LinearLayoutManager(this)
@@ -43,7 +53,6 @@ class ListofCanteens : AppCompatActivity() {
 
                 //Toast.makeText(this@ListofCanteens," umeclick$position", Toast.LENGTH_LONG).show()
                 val intent=Intent(this@ListofCanteens,Menucard::class.java)
-                intent.putExtra("name",imageid[position])
                 startActivity(intent)
             }
 
