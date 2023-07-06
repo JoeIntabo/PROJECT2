@@ -58,4 +58,8 @@ class CustomAdapter(private val mList: List<Listdata>) : RecyclerView.Adapter<Cu
 
         }
     }
+
+    open class ItemClickListener {
+
+    }
 }
